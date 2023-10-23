@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <!-- -------------------------CDN For Tailwind----------------------------------------- -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- -----------------------Link Style.css---------------------------------------- -->
+    <link rel="stylesheet" href="style.css">
+    <!-- -----------------------CDN For FontAwesome---------------------------------------- -->
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body class="flex justify-center items-center h-screen">
+
+    <div class="Container shadow-2xl rounded-2xl w-[320px] h-[22rem] ">
+
+        <div class="image-section bg-blue-500 flex relative h-[6.5rem] w-full rounded-2xl">
+
+            <img class="w-[6.5rem] h-[6.2rem] rounded-full sticky m-auto mt-4  border-[3px] border-white bg-black"
+                src="./Image/pexels-pixabay-220453.jpg" alt="image">
+        </div>
+
+
+        <div class="identification flex flex-col">
+
+            <p class="inline-block m-auto relative top-6 text-lg font-semibold">Coding Lab</p>
+            <p class="inline-block m-auto relative top-6 text-base ">Youtuber & Blogger</p>
+        </div>
+
+        <div class="social_media_section flex justify-center relative top-10">
+
+            <img class="w-11 cursor-pointer  " src="./Image/facebook_logo.png" alt="image">
+            <img class="w-11 ml-4 cursor-pointer " src="./Image/Instagram_logo.png" alt="image">
+            <img class="w-11 ml-4 cursor-pointer " src="./Image/twitter_logo.png" alt="image">
+            <img class="w-11 ml-4 cursor-pointer " src="./Image/Youtube_logo.png" alt="image">
+        </div>
+
+        <div class="Message flex justify-center relative top-14">
+
+            <p class="text-base text-white border-1 w-24 text-center mt-2 rounded-2xl cursor-pointer bg-blue-600 h-8 ">
+                Subcribe</p>
+            <p
+                class="text-base text-white ml-5 border-1 w-24 text-center mt-2 rounded-2xl cursor-pointer bg-blue-600 h-8 ">
+                Message</p>
+        </div>
+
+        <div class="social-comment flex justify-center relative top-16">
+
+            <i class="fa-regular fa-heart flex justify-center -mb-3">
+                <p class=" text-sm ml-2 ">60 k</p>
+            </i>
+            <i class="fa-regular fa-comment flex justify-center -mb-3 ml-9">
+                <p class=" text-sm ml-2">20 k</p>
+            </i>
+            <i class="fa-solid fa-share flex justify-center -mb-3 ml-9">
+                <p class=" text-sm ml-2 ">12 k</p>
+            </i>
+
+        </div>
+    </div>
+</body>
+
+</html>
